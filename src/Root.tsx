@@ -16,7 +16,9 @@ export const Root = () => <>
                     </PageLayout>
                 </Route>
                 <Route path="/">
-                    <Home/>
+                    <PageLayout home>
+                        <Home/>
+                    </PageLayout>
                 </Route>
             </Switch>
         </BrowserRouter>
