@@ -14,7 +14,7 @@ export const Root = () => <>
     <Container>
         <BrowserRouter>
             <Switch>
-                {constants.people.map((person, index) =>
+                {[...constants.children, ...constants.parents].map((person, index) =>
                     <Route path={person.path} key={index}>
                         <PageLayout>
                             <Person name={person.name} avatarImage="" contactLink="" followLink="" username=""/>
