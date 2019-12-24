@@ -43,13 +43,25 @@ export const PageLayout = (props: { children: JSX.Element | JSX.Element[], home?
         <Global styles={css`#root {
         height: 100vh;
         overflow-y: auto;
+        background: rgba(255,255,255,.9);
         > .container {
             height: 100%;
         }
+    }
+    body {
+        background-image: url(https://source.unsplash.com/random?forest=) !important;
+        background-position: 50% !important;
+        background-attachment: fixed !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        
+        a {
+            color: #16ab39;
+        }
     }`}/>
         <MenuBar home={props.home}>
-            {!props.home && <Button as={Link} to="/" icon="arrow left" content="Back"/>}
-            <Button as="a" href="https://nx904.your-storageshare.de/" icon="unlock" content="Login"/>
+            {!props.home && <Button color="green" as={Link} to="/" icon="arrow left" content="Back"/>}
+            <Button color="green" as="a" href="https://nx904.your-storageshare.de/" icon="unlock" content="Login"/>
         </MenuBar>
         <InnerWrapper>
             {props.segment ? <SegmentWrapper>
@@ -57,7 +69,8 @@ export const PageLayout = (props: { children: JSX.Element | JSX.Element[], home?
             </SegmentWrapper> : props.children && props.children}
         </InnerWrapper>
         <MenuBar>
-            <Button as="a" href="https://github.com/pojntfx/family-site/" content="© 2019 Felix Pojtinger"/>
-            <Button as={Link} to="/imprint" icon="legal" content="Impressum"/>
+            <Button color="green" as="a" href="https://github.com/pojntfx/family-site/"
+                    content="© 2019 Felix Pojtinger"/>
+            <Button color="green" as={Link} to="/imprint" icon="legal" content="Impressum"/>
         </MenuBar>
     </Wrapper>;
