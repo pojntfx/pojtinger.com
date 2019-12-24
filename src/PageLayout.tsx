@@ -26,14 +26,14 @@ const InnerWrapper = styled.div`
 const MenuBar = styled.div`
     display: flex;
     align-items: center;
-    justify-content: ${(props: any) => props.home ? `flex-end` : `space-between`};
+    justify-content: ${(props: any) => props.home ? "flex-end" : "space-between"};
     > *:last-child {
         margin-right: 0;
     }
 `;
 
 const SegmentWrapper = styled(Segment)`
-    min-width: 100%;
+    width: 100%;
     min-height: 100%;
     flex-grow: 1;
 `;
@@ -55,8 +55,13 @@ export const PageLayout = (props: { children: JSX.Element | JSX.Element[], home?
         background-repeat: no-repeat !important;
         background-size: cover !important;
         
-        a {
+        a, a:hover {
             color: #16ab39;
+            transition: all 0.2s ease-in-out 0s;
+            &:hover {
+                color: #1ac743;
+                cursor: pointer;
+            }
         }
     }`}/>
         <MenuBar home={props.home}>

@@ -5,7 +5,9 @@ import styled from "@emotion/styled";
 
 const PersonLinkWrapper = styled.div`
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 1rem;
 `;
 
@@ -16,7 +18,7 @@ const PersonAvatar = styled.img`
 
 const PersonName = styled.div`
     font-size: 1.6rem;
-    padding-left: 1rem;
+    padding-top: 0.75rem;
 `;
 
 export const PersonLink = (props: { person: Person }) => props.person.remoteLink ?
@@ -25,10 +27,12 @@ export const PersonLink = (props: { person: Person }) => props.person.remoteLink
             <PersonAvatar src={props.person.avatarLink}/>
             <PersonName>{props.person.name}</PersonName>
         </PersonLinkWrapper>
-    </a> :
+    </a>
+    :
     <Link to={props.person.path}>
         <PersonLinkWrapper>
             <PersonAvatar src={props.person.avatarLink}/>
             <PersonName>{props.person.name}</PersonName>
         </PersonLinkWrapper>
     </Link>;
+
