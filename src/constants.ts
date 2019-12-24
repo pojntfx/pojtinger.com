@@ -1,28 +1,24 @@
+interface Person {
+    name: string
+    path: string
+}
+
 const constants: {
-    people: {
-        name: string
-        path: string
-    }[]
+    parents: Person[],
+    children: Person[],
 } = {
-    people: [{
-        name: "Toni",
-        path: "/toni"
-    }, {
-        name: "Luis",
-        path: "/luis"
-    }, {
-        name: "Felix",
-        path: "/felix"
-    }, {
-        name: "Felix",
-        path: "/felix"
-    }, {
-        name: "Michael",
-        path: "/michael"
-    }, {
-        name: "Nette",
-        path: "/nette"
-    }]
+    parents: [
+        {
+            name: "Nette",
+            path: "/nette"
+        }
+    ],
+    children: [
+        {
+            name: "Toni",
+            path: "/toni"
+        }
+    ]
 };
 
 export {
