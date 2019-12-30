@@ -10,6 +10,7 @@ const HeaderWrapper = styled.div`
 `;
 
 const HeaderAvatar = styled.img`
+  width: 15rem;
   max-width: 15rem;
   border-radius: 50%;
 `;
