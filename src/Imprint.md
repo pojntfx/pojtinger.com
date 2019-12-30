@@ -2,14 +2,14 @@
 
 ## Angaben gemäß § 5 TMG
 
-Felicitas Pojtinger<div><br></div>
-Hirschkopfweg 8<div><br></div>
+<div>Felicitas Pojtinger</div>
+<div>Hirschkopfweg 8</div>
 72270 Baiersbronn
 
 ## Kontakt
 
-Telefon: 07442/50938<div><br></div>
-E-Mail: felicitas@pojtinger.com
+<div>Telefon: 07442/50938</div>
+<div>E-Mail: felicitas@pojtinger.com</div>
 
 ### Haftung für Inhalte
 
