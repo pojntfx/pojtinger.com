@@ -31,6 +31,11 @@ const MenuBar = styled.div`
   > *:last-child {
     margin-right: 0;
   }
+  overflow-y: auto;
+`;
+
+const MenuBarButton = styled(Button)`
+  white-space: nowrap;
 `;
 
 const SegmentWrapper = styled(Segment)`
@@ -76,7 +81,7 @@ export const PageLayout = (props: {
     />
     <MenuBar home={props.home}>
       {!props.home && (
-        <Button
+        <MenuBarButton
           color="green"
           as={Link}
           to="/"
@@ -84,7 +89,7 @@ export const PageLayout = (props: {
           content="Back"
         />
       )}
-      <Button
+      <MenuBarButton
         color="green"
         as="a"
         href="https://nx904.your-storageshare.de/"
@@ -100,13 +105,13 @@ export const PageLayout = (props: {
       )}
     </InnerWrapper>
     <MenuBar>
-      <Button
+      <MenuBarButton
         color="green"
         as="a"
         href="https://github.com/pojntfx/family-site/"
         content="© 2019 Felicitas Pojtinger"
       />
-      <Button
+      <MenuBarButton
         color="green"
         as={Link}
         to="/imprint"
