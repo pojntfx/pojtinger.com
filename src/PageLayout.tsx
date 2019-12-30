@@ -1,8 +1,9 @@
 import * as React from "react";
-import { Button, Segment } from "semantic-ui-react";
+import { Segment } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
 import { css, Global } from "@emotion/core";
+import { Button } from ".";
 
 const Wrapper = styled.div`
   min-height: 100%;
@@ -24,6 +25,8 @@ const InnerWrapper = styled.div`
 `;
 
 const MenuBar = styled.div`
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
   display: flex;
   align-items: center;
   justify-content: ${(props: any) =>
@@ -31,11 +34,10 @@ const MenuBar = styled.div`
   > *:last-child {
     margin-right: 0;
   }
+  > * {
+    margin: 0.5rem !important;
+  }
   overflow-y: auto;
-`;
-
-const MenuBarButton = styled(Button)`
-  white-space: nowrap;
 `;
 
 const SegmentWrapper = styled(Segment)`
@@ -81,7 +83,7 @@ export const PageLayout = (props: {
     />
     <MenuBar home={props.home}>
       {!props.home && (
-        <MenuBarButton
+        <Button
           color="green"
           as={Link}
           to="/"
@@ -89,7 +91,7 @@ export const PageLayout = (props: {
           content="Back"
         />
       )}
-      <MenuBarButton
+      <Button
         color="green"
         as="a"
         href="https://nx904.your-storageshare.de/"
@@ -105,13 +107,13 @@ export const PageLayout = (props: {
       )}
     </InnerWrapper>
     <MenuBar>
-      <MenuBarButton
+      <Button
         color="green"
         as="a"
         href="https://github.com/pojntfx/family-site/"
         content="© 2019 Felix Pojtinger"
       />
-      <MenuBarButton
+      <Button
         color="green"
         as={Link}
         to="/imprint"
