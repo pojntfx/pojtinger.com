@@ -30,7 +30,7 @@ const InnerWrapper = styled.div`
 
   @keyframes bummer {
     100% {
-      transform: scale(1, 1);
+      transform: scale(1);
       opacity: 1;
     }
   }
@@ -57,6 +57,18 @@ const SegmentWrapper = styled(Segment)`
   width: 100%;
   min-height: 100%;
   flex-grow: 1;
+
+  animation: bummer 0.2s;
+  transform: translateY(1rem);
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  @keyframes bummer {
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 `;
 
 export const PageLayout = (props: {
@@ -125,6 +137,7 @@ export const PageLayout = (props: {
         as="a"
         href="https://github.com/pojntfx/family-site/"
         content="© 2019 Felicitas Pojtinger"
+        target="_blank"
       />
       <Button
         color="green"
