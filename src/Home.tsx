@@ -19,18 +19,14 @@ const PersonSelector = styled.div`
 `;
 
 const PersonEdge = styled.div`
-  & > * {
-    &,
-    & > * > *:first-child {
-      transition: all 0.2s ease-in-out 0s;
-    }
+  & > * > * > *:first-child {
+    transition: all 0.2s ease-in-out 0s;
+
     &:hover,
     &:active {
       transform: scale(1.05);
-      & > * > *:first-child {
-        box-shadow: rgba(34, 36, 38, 0.12) 0px 2px 4px 0px,
-          rgba(34, 36, 38, 0.15) 0px 2px 10px 0px !important;
-      }
+      box-shadow: rgba(34, 36, 38, 0.12) 0px 2px 4px 0px,
+        rgba(34, 36, 38, 0.15) 0px 2px 10px 0px !important;
     }
     &:active {
       transform: scale(1);

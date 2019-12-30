@@ -22,6 +22,18 @@ const InnerWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  animation: bummer 0.2s;
+  transform: scale(0.9);
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  @keyframes bummer {
+    100% {
+      transform: scale(1, 1);
+      opacity: 1;
+    }
+  }
 `;
 
 const MenuBar = styled.div`
@@ -37,7 +49,8 @@ const MenuBar = styled.div`
   > * {
     margin: 0.5rem !important;
   }
-  overflow-y: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
 `;
 
 const SegmentWrapper = styled(Segment)`
