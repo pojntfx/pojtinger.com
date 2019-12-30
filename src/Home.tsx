@@ -7,6 +7,7 @@ import { PersonLink } from ".";
 
 const HomeIcon = styled.img`
   shape-outside: circle(50%);
+  width: 30vw;
   max-width: 20rem;
 `;
 

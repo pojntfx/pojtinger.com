@@ -2,13 +2,13 @@
 
 ## Angaben gemäß § 5 TMG
 
-Felix Pojtinger  
-Hirschkopfweg 8  
+Felix Pojtinger<div><br></div>
+Hirschkopfweg 8<div><br></div>
 72270 Baiersbronn
 
 ## Kontakt
 
-Telefon: 07442/50938  
+Telefon: 07442/50938<div><br></div>
 E-Mail: felix@pojtinger.com
 
 ### Haftung für Inhalte
