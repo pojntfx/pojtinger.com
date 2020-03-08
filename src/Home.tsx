@@ -2,7 +2,7 @@ import * as React from "react";
 import { constants } from "./constants";
 import styled from "@emotion/styled";
 // @ts-ignore
-import Icon from "./icon.png";
+import Icon from "./img/icon.png";
 import { PersonLink } from ".";
 
 const HomeIcon = styled.img`
