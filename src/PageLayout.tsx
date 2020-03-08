@@ -113,7 +113,7 @@ export const PageLayout = (props: {
           as={Link}
           to="/"
           icon="arrow left"
-          content="Back"
+          content="Zurück"
         />
       )}
       <Button
@@ -136,7 +136,7 @@ export const PageLayout = (props: {
         color="green"
         as="a"
         href="https://github.com/pojntfx/family-site/"
-        content="© 2019 Felicitas Pojtinger"
+        content="© 2020 Felicitas Pojtinger"
         target="_blank"
       />
       <Button
