@@ -19,7 +19,7 @@ const PersonSelector = styled.div`
 `;
 
 const PersonEdge = styled.div`
-  & > * > * > *:first-child {
+  & > * > * > *:first-of-type {
     transition: all 0.2s ease-in-out 0s;
 
     &:hover,
@@ -32,12 +32,12 @@ const PersonEdge = styled.div`
       transform: scale(1);
     }
   }
-  &:first-child > * {
+  &:first-of-type > * {
     margin-right: -1rem;
     margin-bottom: 1rem;
   }
   &:last-child {
-    > *:first-child,
+    > *:first-of-type,
     > *:last-child {
       margin-left: -2.5rem;
     }

@@ -2,7 +2,7 @@ import * as React from "react";
 import { Segment } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
-import { css, Global } from "@emotion/core";
+import { css, Global } from "@emotion/react";
 import { Button } from ".";
 
 const Wrapper = styled.div`
@@ -136,7 +136,7 @@ export const PageLayout = (props: {
         color="green"
         as="a"
         href="https://github.com/pojntfx/family-site/"
-        content="© 2020 Felicitas Pojtinger"
+        content="© 2021 Felicitas Pojtinger"
         target="_blank"
       />
       <Button

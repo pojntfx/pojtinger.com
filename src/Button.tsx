@@ -7,7 +7,7 @@ export const PageButton = styled(Button)`
   &:hover,
   &:active {
     transform: scale(1.05);
-    & > * > *:first-child {
+    & > * > *:first-of-type {
       box-shadow: rgba(34, 36, 38, 0.12) 0px 2px 4px 0px,
         rgba(34, 36, 38, 0.15) 0px 2px 10px 0px !important;
     }
