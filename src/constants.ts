@@ -30,7 +30,7 @@ const constants: {
       followLink: "https://www.instagram.com/an.nette.pojtinger/",
       emailLink: "mailto:nette@pojtinger.com",
       path: "/nette",
-      avatarLink: Nette
+      avatarLink: Nette,
     },
     {
       name: "Michael",
@@ -38,8 +38,8 @@ const constants: {
       followLink: "https://www.instagram.com/michaelpojtinger/",
       emailLink: "mailto:michael@pojtinger.com",
       path: "/michael",
-      avatarLink: Michael
-    }
+      avatarLink: Michael,
+    },
   ],
   children: [
     {
@@ -48,7 +48,7 @@ const constants: {
       followLink: "https://www.instagram.com/toni.pojtinger/",
       emailLink: "mailto:toni@pojtinger.com",
       path: "/toni",
-      avatarLink: Toni
+      avatarLink: Toni,
     },
     {
       name: "Luis",
@@ -56,7 +56,7 @@ const constants: {
       followLink: "https://www.instagram.com/luispojtinger/",
       emailLink: "mailto:luis@pojtinger.com",
       path: "/luis",
-      avatarLink: Luis
+      avatarLink: Luis,
     },
     {
       name: "Felicitas",
@@ -66,9 +66,9 @@ const constants: {
       path: "/felicitas",
       remoteLink: "https://felicitas.pojtinger.com/",
       avatarLink:
-        "https://s.gravatar.com/avatar/db856df33fa4f4bce441819f604c90d5?s=512"
-    }
-  ]
+        "https://s.gravatar.com/avatar/db856df33fa4f4bce441819f604c90d5?s=512",
+    },
+  ],
 };
 
 export { constants, Person };
