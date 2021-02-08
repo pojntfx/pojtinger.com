@@ -1,0 +1,48 @@
+{
+  "familyName": "Pojtinger",
+  "parents": [
+    {
+      "name": "Nette",
+      "username": "@an.nette.pojtinger",
+      "followLink": "https://www.instagram.com/an.nette.pojtinger/",
+      "emailLink": "mailto:nette@pojtinger.com",
+      "path": "/nette",
+      "avatarLink": "https://nx904.your-storageshare.de/s/CNidiHwdGNyXsfL/download?path=%2F&files=Nette.jpg&downloadStartSecret=gc91uh1402"
+    },
+    {
+      "name": "Michael",
+      "username": "@michaelpojtinger",
+      "followLink": "https://www.instagram.com/michaelpojtinger/",
+      "emailLink": "mailto:michael@pojtinger.com",
+      "path": "/michael",
+      "avatarLink": "https://nx904.your-storageshare.de/s/CNidiHwdGNyXsfL/download?path=%2F&files=Michael.jpg&downloadStartSecret=gc91uh1402"
+    }
+  ],
+  "children": [
+    {
+      "name": "Toni",
+      "username": "@toni.pojtinger",
+      "followLink": "https://www.instagram.com/toni.pojtinger/",
+      "emailLink": "mailto:toni@pojtinger.com",
+      "path": "/toni",
+      "avatarLink": "https://nx904.your-storageshare.de/s/CNidiHwdGNyXsfL/download?path=%2F&files=Toni.jpg&downloadStartSecret=gc91uh1402"
+    },
+    {
+      "name": "Luis",
+      "username": "@luispojtinger",
+      "followLink": "https://www.instagram.com/luispojtinger/",
+      "emailLink": "mailto:luis@pojtinger.com",
+      "path": "/luis",
+      "avatarLink": "https://nx904.your-storageshare.de/s/CNidiHwdGNyXsfL/download?path=%2F&files=Luis.jpg&downloadStartSecret=gc91uh1402"
+    },
+    {
+      "name": "Felicitas",
+      "username": "@pojntfx",
+      "followLink": "https://felicitas.pojtinger.com/",
+      "emailLink": "https://felicitas.pojtinger.com/",
+      "path": "/felicitas",
+      "remoteLink": "https://felicitas.pojtinger.com/",
+      "avatarLink": "https://s.gravatar.com/avatar/db856df33fa4f4bce441819f604c90d5?s=512"
+    }
+  ]
+}
