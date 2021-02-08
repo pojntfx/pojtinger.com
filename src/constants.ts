@@ -1,12 +1,3 @@
-// @ts-ignore
-import Nette from "./img/nette.jpg";
-// @ts-ignore
-import Michael from "./img/michael.jpg";
-// @ts-ignore
-import Toni from "./img/toni.jpg";
-// @ts-ignore
-import Luis from "./img/luis.jpg";
-
 interface Person {
   name: string;
   path: string;
@@ -30,7 +21,8 @@ const constants: {
       followLink: "https://www.instagram.com/an.nette.pojtinger/",
       emailLink: "mailto:nette@pojtinger.com",
       path: "/nette",
-      avatarLink: Nette,
+      avatarLink:
+        "https://nx904.your-storageshare.de/s/CNidiHwdGNyXsfL/download?path=%2F&files=Nette.jpg&downloadStartSecret=gc91uh1402",
     },
     {
       name: "Michael",
@@ -38,7 +30,8 @@ const constants: {
       followLink: "https://www.instagram.com/michaelpojtinger/",
       emailLink: "mailto:michael@pojtinger.com",
       path: "/michael",
-      avatarLink: Michael,
+      avatarLink:
+        "https://nx904.your-storageshare.de/s/CNidiHwdGNyXsfL/download?path=%2F&files=Michael.jpg&downloadStartSecret=gc91uh1402",
     },
   ],
   children: [
@@ -48,7 +41,8 @@ const constants: {
       followLink: "https://www.instagram.com/toni.pojtinger/",
       emailLink: "mailto:toni@pojtinger.com",
       path: "/toni",
-      avatarLink: Toni,
+      avatarLink:
+        "https://nx904.your-storageshare.de/s/CNidiHwdGNyXsfL/download?path=%2F&files=Toni.jpg&downloadStartSecret=gc91uh1402",
     },
     {
       name: "Luis",
@@ -56,7 +50,8 @@ const constants: {
       followLink: "https://www.instagram.com/luispojtinger/",
       emailLink: "mailto:luis@pojtinger.com",
       path: "/luis",
-      avatarLink: Luis,
+      avatarLink:
+        "https://nx904.your-storageshare.de/s/CNidiHwdGNyXsfL/download?path=%2F&files=Luis.jpg&downloadStartSecret=gc91uh1402",
     },
     {
       name: "Felicitas",

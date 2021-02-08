@@ -88,7 +88,7 @@ export const PageLayout = (props: {
           }
         }
         body {
-          background-image: url(https://source.unsplash.com/random?forest=) !important;
+          background-image: url(https://source.unsplash.com/random?trees=) !important;
           background-position: 50% !important;
           background-attachment: fixed !important;
           background-repeat: no-repeat !important;
