@@ -18,7 +18,7 @@ const PersonSelector = styled.div`
   align-items: center;
 `;
 
-const PersonEdge = styled.div`
+const PersonEdge = styled.div<{ right?: boolean }>`
   & > * > * > *:first-child {
     transition: all 0.2s ease-in-out 0s;
 
@@ -49,9 +49,13 @@ const PersonEdge = styled.div`
   align-items: ${(props: any) => (props.right ? "flex-start" : "flex-end")};
 `;
 
+const Heading = styled.h1`
+  text-align: center;
+`;
+
 export const Home = () => (
   <div>
-    <h1>Die Hirschkopfbande grüßt alle Besucher!</h1>
+    <Heading>Welcome to the Hirschkopfbande!</Heading>
 
     <PersonSelector>
       <PersonEdge>

@@ -37,15 +37,15 @@ export const Person = (props: { person: IPerson }) => (
           primary
           as="a"
           href={props.person.followLink}
-          icon="add"
-          content="Folgen"
+          icon="instagram"
+          content="Instagram"
           target="_blank"
         />
         <HeaderButton
           as="a"
           href={props.person.emailLink}
           icon="mail"
-          content="Anschreiben"
+          content="Mail"
           target="_blank"
         />
       </Grid.Column>

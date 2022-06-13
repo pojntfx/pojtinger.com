@@ -36,7 +36,7 @@ const InnerWrapper = styled.div`
   }
 `;
 
-const MenuBar = styled.div`
+const MenuBar = styled.div<{ home?: boolean }>`
   margin-left: -0.5rem;
   margin-right: -0.5rem;
   display: flex;
@@ -113,7 +113,7 @@ export const PageLayout = (props: {
           as={Link}
           to="/"
           icon="arrow left"
-          content="Zurück"
+          content="Back"
         />
       )}
       <Button
@@ -136,7 +136,7 @@ export const PageLayout = (props: {
         color="green"
         as="a"
         href="https://github.com/pojntfx/family-site/"
-        content="© 2021 Felicitas Pojtinger"
+        content="© 2022 Felicitas Pojtinger"
         target="_blank"
       />
       <Button
@@ -144,7 +144,7 @@ export const PageLayout = (props: {
         as={Link}
         to="/imprint"
         icon="legal"
-        content="Impressum"
+        content="Imprint"
       />
     </MenuBar>
   </Wrapper>
