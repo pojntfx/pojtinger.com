@@ -4,8 +4,8 @@
   "description": "A site for my family.",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "parcel --hmr-port 1235 src/index.html",
-    "build": "parcel build src/index.html && cp _redirects dist",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
