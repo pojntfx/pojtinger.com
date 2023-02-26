@@ -135,8 +135,8 @@ export const PageLayout = (props: {
       <Button
         color="green"
         as="a"
-        href="https://github.com/pojntfx/family-site/"
-        content="© 2022 Felicitas Pojtinger"
+        href="https://github.com/pojntfx/pojtinger.com/"
+        content="© 2023 Felicitas Pojtinger"
         target="_blank"
       />
       <Button

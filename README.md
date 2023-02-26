@@ -13,7 +13,7 @@ To contribute, please use the [GitHub flow](https://guides.github.com/introducti
 To build the site locally, run:
 
 ```shell
-$ git clone https://github.com/pojntfx/family-site.git
+$ git clone https://github.com/pojntfx/pojtinger.com.git
 $ cd family-site
 $ yarn
 $ yarn dev
@@ -21,6 +21,6 @@ $ yarn dev
 
 ## License
 
-Family Site (c) 2022 Felicitas Pojtinger
+Family Site (c) 2023 Felicitas Pojtinger
 
 SPDX-License-Identifier: AGPL-3.0
