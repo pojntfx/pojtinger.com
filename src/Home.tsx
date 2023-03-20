@@ -1,9 +1,8 @@
-import * as React from "react";
-import { constants } from "./constants";
 import styled from "@emotion/styled";
 // @ts-ignore
-import Icon from "./img/icon.png";
-import { PersonLink } from ".";
+import Icon from "../icon.png";
+import constants from "./constants.json";
+import { PersonLink } from "./PersonLink";
 
 const HomeIcon = styled.img`
   shape-outside: circle(50%);

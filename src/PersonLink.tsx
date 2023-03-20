@@ -1,7 +1,6 @@
-import * as React from "react";
-import { IPerson } from ".";
 import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
+import { Person } from "./constants";
 
 const PersonLinkWrapper = styled.div`
   display: flex;
@@ -21,7 +20,7 @@ const PersonName = styled.div`
   padding-top: 0.75rem;
 `;
 
-export const PersonLink = (props: { person: IPerson }) =>
+export const PersonLink = (props: { person: Person }) =>
   props.person.remoteLink ? (
     <a href={props.person.remoteLink} target="_blank">
       <PersonLinkWrapper>

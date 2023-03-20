@@ -1,4 +1,4 @@
-interface Person {
+export interface Person {
   name: string;
   path: string;
   remoteLink?: string;
@@ -7,7 +7,3 @@ interface Person {
   followLink: string;
   emailLink: string;
 }
-
-import constants from "./constants.json";
-
-export { constants, Person };

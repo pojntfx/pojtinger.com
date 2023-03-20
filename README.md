@@ -14,9 +14,9 @@ To build the site locally, run:
 
 ```shell
 $ git clone https://github.com/pojntfx/pojtinger.com.git
-$ cd family-site
-$ yarn
-$ yarn dev
+$ cd pojtinger.com
+$ npm install --legacy-peer-deps
+$ npm run dev
 ```
 
 ## License

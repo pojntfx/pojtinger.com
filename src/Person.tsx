@@ -1,9 +1,7 @@
-import * as React from "react";
 import styled from "@emotion/styled";
-import { IPerson } from ".";
-import { Grid, Header } from "semantic-ui-react";
-import { constants } from "./constants";
-import { Button } from ".";
+import { Person as IPerson } from "./constants";
+import { Button, Grid, Header } from "semantic-ui-react";
+import constants from "./constants.json";
 
 const HeaderWrapper = styled(Grid)`
   width: 100%;

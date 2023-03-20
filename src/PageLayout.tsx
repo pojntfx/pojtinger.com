@@ -1,9 +1,7 @@
-import * as React from "react";
-import { Segment } from "semantic-ui-react";
+import { Button, Segment } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
 import { css, Global } from "@emotion/react";
-import { Button } from ".";
 
 const Wrapper = styled.div`
   min-height: 100%;
@@ -22,18 +20,6 @@ const InnerWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  animation: bummer 0.2s;
-  transform: scale(0.9);
-  opacity: 0;
-  animation-fill-mode: forwards;
-
-  @keyframes bummer {
-    100% {
-      transform: scale(1);
-      opacity: 1;
-    }
-  }
 `;
 
 const MenuBar = styled.div<{ home?: boolean }>`
@@ -57,18 +43,6 @@ const SegmentWrapper = styled(Segment)`
   width: 100%;
   min-height: 100%;
   flex-grow: 1;
-
-  animation: bummer 0.2s;
-  transform: translateY(1rem);
-  opacity: 0;
-  animation-fill-mode: forwards;
-
-  @keyframes bummer {
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
 `;
 
 export const PageLayout = (props: {
