@@ -56,7 +56,15 @@ export const PageLayout = (props: {
         #root {
           height: 100vh;
           overflow-y: auto;
-          background: rgba(255, 255, 255, 0.9);
+          backdrop-filter: blur(7.5px);
+          background: rgba(255, 255, 255, 0.8);
+          @media (prefers-color-scheme: dark) {
+            background: rgba(0, 0, 0, 0.8);
+
+            .freestanding {
+              color: #fff;
+            }
+          }
           > .container {
             height: 100%;
           }

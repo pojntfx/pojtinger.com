@@ -54,7 +54,7 @@ const Heading = styled.h1`
 
 export const Home = () => (
   <div>
-    <Heading>Welcome to the Hirschkopfbande!</Heading>
+    <Heading className="freestanding">Welcome to the Hirschkopfbande!</Heading>
 
     <PersonSelector>
       <PersonEdge>
