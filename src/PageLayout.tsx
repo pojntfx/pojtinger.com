@@ -63,6 +63,10 @@ export const PageLayout = (props: {
 
             .freestanding {
               color: #fff;
+
+              .sub.header {
+                color: rgb(255 255 255 / 80%);
+              }
             }
           }
           > .container {

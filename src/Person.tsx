@@ -25,6 +25,7 @@ export const Person = (props: { person: IPerson }) => (
           as="h1"
           content={`${props.person.name} ${constants.familyName}`}
           subheader={props.person.username}
+          className="freestanding"
         />
       </Grid.Column>
       <Grid.Column verticalAlign="middle" textAlign="center">
