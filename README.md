@@ -42,10 +42,10 @@ To contribute, please use the [GitHub flow](https://guides.github.com/introducti
 To build the site locally, run:
 
 ```shell
-git clone https://github.com/pojntfx/pojtinger.com.git
-cd pojtinger.com
-npm install --legacy-peer-deps
-npm run dev
+$ git clone https://github.com/pojntfx/pojtinger.com.git
+$ cd pojtinger.com
+$ npm install --legacy-peer-deps
+$ npm run dev
 ```
 
 ## License
