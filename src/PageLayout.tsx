@@ -106,8 +106,8 @@ export const PageLayout = (props: {
         color="green"
         as="a"
         href="https://nx904.your-storageshare.de/"
-        icon="unlock"
-        content="Login"
+        icon="server"
+        content="Hirschkopf-Cloud"
       />
     </MenuBar>
     <InnerWrapper>
@@ -122,7 +122,7 @@ export const PageLayout = (props: {
         color="green"
         as="a"
         href="https://github.com/pojntfx/pojtinger.com/"
-        content="© 2023 Felicitas Pojtinger"
+        content="© 2024 Felicitas Pojtinger"
         target="_blank"
       />
       <Button
