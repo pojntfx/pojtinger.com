@@ -11,6 +11,7 @@ It provides the following information:
 - Profile pictures
 - Social accounts (Instagram etc.)
 - Mail addresses
+- Personal website links (if available)
 
 ## Installation
 
