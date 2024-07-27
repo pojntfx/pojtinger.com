@@ -2,6 +2,8 @@ import { Button, Segment } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
 import { css, Global } from "@emotion/react";
+// @ts-ignore
+import Bg from "../bg.webp";
 
 const Wrapper = styled.div`
   min-height: 100%;
@@ -74,7 +76,7 @@ export const PageLayout = (props: {
           }
         }
         body {
-          background-image: url(https://source.unsplash.com/random?trees=) !important;
+          background-image: url(${Bg}) !important;
           background-position: 50% !important;
           background-attachment: fixed !important;
           background-repeat: no-repeat !important;
