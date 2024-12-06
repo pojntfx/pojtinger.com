@@ -107,7 +107,7 @@ export const PageLayout = (props: {
       <Button
         color="green"
         as="a"
-        href="https://nx904.your-storageshare.de/"
+        href="https://cloud.pojtinger.com/"
         icon="server"
         content="Hirschkopf-Cloud"
       />
