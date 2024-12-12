@@ -5,7 +5,6 @@ import { Container } from "semantic-ui-react";
 import constants from "./constants.json";
 import { Home } from "./Home";
 // @ts-ignore
-import Imprint from "./Imprint.mdx";
 import { PageLayout } from "./PageLayout";
 import { Person } from "./Person";
 
@@ -18,14 +17,6 @@ const router = createBrowserRouter([
       </PageLayout>
     ),
   })),
-  {
-    path: "/imprint",
-    element: (
-      <PageLayout segment>
-        <Imprint />
-      </PageLayout>
-    ),
-  },
   {
     path: "/",
     element: (

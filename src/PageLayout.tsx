@@ -1,4 +1,4 @@
-import { Button, Segment } from "semantic-ui-react";
+import { Button, ButtonGroup, Segment } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
 import { css, Global } from "@emotion/react";
@@ -39,6 +39,7 @@ const MenuBar = styled.div<{ home?: boolean }>`
   }
   overflow-x: auto;
   overflow-y: hidden;
+  white-space: nowrap;
 `;
 
 const SegmentWrapper = styled(Segment)`
@@ -123,17 +124,36 @@ export const PageLayout = (props: {
       <Button
         color="green"
         as="a"
-        href="https://github.com/pojntfx/pojtinger.com/"
-        content="© 2024 Felicitas Pojtinger"
+        href="https://github.com/pojntfx/pojtinger.com#license"
+        content="© 2024 Felicitas Pojtinger and contributors (AGPL-3.0)"
         target="_blank"
       />
-      <Button
-        color="green"
-        as={Link}
-        to="/imprint"
-        icon="legal"
-        content="Imprint"
-      />
+
+      <ButtonGroup color="green">
+        <Button
+          as="a"
+          href="https://github.com/pojntfx/pojtinger.com/"
+          icon="code"
+          content="Code"
+          target="_blank"
+        />
+
+        <Button
+          as="a"
+          href="https://felicitas.pojtinger.com/imprint"
+          icon="legal"
+          content="Imprint"
+          target="_blank"
+        />
+
+        <Button
+          as="a"
+          href="https://felicitas.pojtinger.com/privacy/static"
+          icon="shield"
+          content="Privacy"
+          target="_blank"
+        />
+      </ButtonGroup>
     </MenuBar>
   </Wrapper>
 );
