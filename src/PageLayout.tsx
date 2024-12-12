@@ -140,17 +140,17 @@ export const PageLayout = (props: {
 
         <Button
           as="a"
-          href="https://felicitas.pojtinger.com/imprint"
-          icon="legal"
-          content="Imprint"
+          href="https://felicitas.pojtinger.com/privacy/static"
+          icon="shield"
+          content="Privacy"
           target="_blank"
         />
 
         <Button
           as="a"
-          href="https://felicitas.pojtinger.com/privacy/static"
-          icon="shield"
-          content="Privacy"
+          href="https://felicitas.pojtinger.com/imprint"
+          icon="legal"
+          content="Imprint"
           target="_blank"
         />
       </ButtonGroup>
