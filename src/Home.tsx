@@ -1,6 +1,4 @@
 import styled from "@emotion/styled";
-// @ts-ignore
-import Icon from "../icon.png";
 import constants from "./constants.json";
 import { PersonLink } from "./PersonLink";
 
@@ -63,7 +61,7 @@ export const Home = () => (
         ))}
       </PersonEdge>
 
-      <HomeIcon src={Icon} />
+      <HomeIcon src={new URL("../icon.png", import.meta.url).toString()} />
 
       <PersonEdge right>
         {constants.children.map((person, index) => (
