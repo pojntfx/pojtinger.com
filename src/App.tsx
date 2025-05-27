@@ -1,10 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-// @ts-ignore
 import "semantic-ui-css/semantic.min.css";
 import { Container } from "semantic-ui-react";
 import constants from "./constants.json";
 import { Home } from "./Home";
-// @ts-ignore
 import { PageLayout } from "./PageLayout";
 import { Person } from "./Person";
 
