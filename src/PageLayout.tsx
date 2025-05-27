@@ -125,7 +125,7 @@ export const PageLayout = (props: {
         color="green"
         as="a"
         href="https://github.com/pojntfx/pojtinger.com#license"
-        content="© 2024 Felicitas Pojtinger and contributors (AGPL-3.0)"
+        content="© 2025 Felicitas Pojtinger and contributors (AGPL-3.0)"
         target="_blank"
       />
 
@@ -148,8 +148,16 @@ export const PageLayout = (props: {
 
         <Button
           as="a"
+          href="https://felicitas.pojtinger.com/tos/static"
+          icon="gavel"
+          content="Terms of Service"
+          target="_blank"
+        />
+
+        <Button
+          as="a"
           href="https://felicitas.pojtinger.com/imprint"
-          icon="legal"
+          icon="address card"
           content="Imprint"
           target="_blank"
         />

@@ -51,6 +51,6 @@ $ npm run dev
 
 ## License
 
-Family Site (c) 2024 Felicitas Pojtinger
+Family Site (c) 2025 Felicitas Pojtinger
 
 SPDX-License-Identifier: AGPL-3.0
