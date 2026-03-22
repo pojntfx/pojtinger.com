@@ -77,7 +77,7 @@ export const PageLayout = (props: {
         body {
           background-image: url(${new URL(
             "../bg.webp",
-            import.meta.url
+            import.meta.url,
           ).toString()}) !important;
           background-position: 50% !important;
           background-attachment: fixed !important;
@@ -126,7 +126,7 @@ export const PageLayout = (props: {
         color="green"
         as="a"
         href="https://github.com/pojntfx/pojtinger.com#license"
-        content="© 2025 Felicitas Pojtinger and contributors (AGPL-3.0)"
+        content="© 2026 Felicitas Pojtinger and contributors (AGPL-3.0)"
         target="_blank"
       />
 
