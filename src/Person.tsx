@@ -47,6 +47,19 @@ export const Person = (props: { person: IPerson }) => (
           content="Mail"
           target="_blank"
         />
+        {props.person.websiteLink && (
+          <>
+            <div className="ui divider"></div>
+            <HeaderButton
+              as="a"
+              href={props.person.websiteLink}
+              icon="external"
+              secondary
+              content={props.person.websiteTitle || ""}
+              target="_blank"
+            />
+          </>
+        )}
       </Grid.Column>
     </Grid.Row>
   </HeaderWrapper>

@@ -6,4 +6,6 @@ export interface Person {
   username: string;
   followLink: string;
   emailLink: string;
+  websiteLink?: string;
+  websiteTitle?: string;
 }
